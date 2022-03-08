@@ -1,0 +1,44 @@
+:root {
+  --primary: rgba(127, 5, 146, 0.9);
+  --secondary: rgba(21, 198, 211, 0.9);
+}
+
+body {
+
+  background-image: linear-gradient(135deg, var(--primary), var(--secondary)),
+    url('../images/priscilla-du-preez-XkKCui44iM0-unsplash.jpg');
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: auto;
+
+}
+
+form {
+  display: grid;
+  font-size: 22px;
+  background-color: rgba(22, 19, 19, 0.8);
+  border-radius: 5px;
+  width: 65%;
+  padding: 30px 30px 30px 30px;
+  margin:auto;
+  color: rgb(255, 255, 255);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+  display: grid;
+  color: ivory;
+  justify-content: center;
+  padding-top: 50px;
+  text-align: center;
+}
+
+@media (max-width:600px) {
+  form {
+    width: 100%;
+    margin:none;
+  }
+}
